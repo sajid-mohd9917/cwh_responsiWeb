@@ -1,0 +1,267 @@
+.logoImg img {
+    width: 45px;
+    margin: 10px;
+    filter: invert(90%);
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anonymous Pro';
+}
+
+.navBar {
+    display: flex;
+    flex-flow: row wrap;
+    /* position: relative; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.navBar::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* right: 0px; */
+    background-color: black;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.navBar>ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    display: block;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.navBar a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.home {
+    display: flex;
+    flex-flow: column wrap;
+    /* border: 2px solid greenyellow; */
+    padding: 10px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 620px;
+    /* width: 100%; */
+    /* position: relative; */
+}
+
+.home::before {
+    content: "";
+    width: 100%;
+    height: 642px;
+    /* width: auto; */
+    background: url("./BiG_pizza.png") center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.home h1 {
+    color: white;
+
+}
+
+.home p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+/* utility classes */
+.heading-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.heading-secondary {
+    font-size: 2.23rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    padding: 6px 10px;
+    /* #DCB79A */
+    background-color: #DCB79A;
+    border: 2px solid white;
+    color: #58372F;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+/* Our sevices section */
+
+.service .box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.service-ontainer {
+    border: 2px solid silver;
+
+}
+
+.service {
+    border: 2px dashed red;
+    display: flex;
+
+}
+
+.box {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #f5f2f2;
+
+
+}
+
+
+.client-section {
+    border: 3px solid red;
+    /* height: 420px; */
+    height: auto;
+    position: relative;
+    margin: 25px 0px;
+}
+
+.cleint {
+    border: 2px dashed blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 50px; */
+
+}
+
+.cleint img {
+    height: 200px;
+    border: 2px dashed black;
+    filter: invert(50%);
+}
+
+.skypeImg img {
+    width: 220px;
+    filter: invert(0%);
+
+}
+
+.client-item {
+    border: 2px dashed orange;
+    padding: 34px;
+}
+
+.client-section::before {
+    content: "";
+    background: url("https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg?auto=compress&cs=tinysrgb&w=600") center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+
+
+
+.contact {
+    border: 3px solid greenyellow;
+    position: relative;
+}
+
+.contact-box {
+    border: 2px dashed greenyellow;
+}
+
+.contact::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("https://images.pexels.com/photos/46924/pexels-photo-46924.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+
+.contact-box {
+    border: 3px dotted darkorange;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+
+
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    /* padding-left: 1rem; */
+}
+
+.contact-box form {
+    width: 40%;
+}
+
+.contact-box label {
+    font-size: 1.3rem;
+    color: white;
+    /* padding-left: 1rem; */
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    width: 100%;
+}

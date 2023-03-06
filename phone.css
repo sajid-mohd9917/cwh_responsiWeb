@@ -1,0 +1,139 @@
+body {
+    background-color: aqua;
+}
+
+.navBar {
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar a {
+    font-size: 1rem;
+    padding: 4px 4px;
+    border-radius: 10px;
+}
+
+.navBar>ul {
+    padding-bottom: 10px;
+}
+
+.logoImg img {
+    width: 45px;
+    margin: 5px;
+    filter: invert(90%);
+
+}
+
+.home p {
+    color: white;
+    font-size: 1rem;
+}
+
+.home {
+    height: 390px;
+    padding: 10px 50px;
+}
+
+.home::before {
+    height: 410px;
+    /* width: 100%; */
+}
+
+.btn {
+    padding: 3px 7px;
+    margin-top: 6px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.heading-primary {
+    font-size: 2rem;
+    padding: 12px;
+}
+
+.heading-secondary {
+    font-size: 1.6rem;
+}
+
+.service {
+    flex-flow: column wrap;
+
+}
+
+.box {
+    padding: 15px 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+
+}
+
+.service .box img {
+    height: 215px;
+}
+
+.cleint {
+    border: 2px dashed blue;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cleint img {
+    height: 65px;
+    border: 2px dashed black;
+    filter: invert(90%);
+}
+
+.skypeImg img {
+    width: 115px;
+    height: auto;
+    filter: invert(10%);
+
+}
+
+.client-item {
+    border: 2px dashed orange;
+    padding: 15px 10px;
+}
+
+.contact-box form {
+    width: 70%;
+}
+
+
+
+@media (max-width:320px) {
+    .heading-primary {
+        font-size: 1.4rem;
+        padding: 12px;
+    }
+
+    .heading-secondary {
+        font-size: 1.3rem;
+    }
+
+    .home {
+        height: 365px;
+        padding: 60px 29px;
+    }
+
+    .home::before {
+        height: 485px;
+        /* width: 100%; */
+    }
+
+    .btn {
+        padding: 2px 2px;
+        margin-top: 10px;
+    }
+
+    .navBar>ul {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
